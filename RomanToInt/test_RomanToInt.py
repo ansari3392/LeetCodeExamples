@@ -18,6 +18,10 @@ class romanToIntTest(unittest.TestCase):
         solution = Solution('MCIV')
         self.assertEqual(solution(), 1104)
 
+    def test_5(self):
+        solution = Solution('MMMDXLIX')
+        self.assertEqual(solution(), 3549)
+
 
 if __name__ == '__main__':
     unittest.main()
